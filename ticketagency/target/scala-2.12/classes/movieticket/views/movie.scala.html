@@ -1,0 +1,25 @@
+@(movies: List[models.Movie])
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie List</title>
+</head>
+<body>
+<p>No movies available yet.</p>
+
+@if(movies.isEmpty) {
+<p>No movies available yet.</p>
+} else {
+<ul>
+    @movies.map { movie =>
+    <li>
+        <a href="#edittoimplement">@movie.title</a>
+        <em>@movie.genre</em>
+    </li>
+    }
+</ul>
+}
+</body>
+</html>
+

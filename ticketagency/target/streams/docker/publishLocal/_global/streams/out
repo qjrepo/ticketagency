@@ -1,0 +1,86 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t play-scala-starter-example:1.0.0 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/wu/Desktop/ticketagency-master/ticket_agency/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  49.65MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/14 : FROM openjdk:8 as stage0[0m
+[0m[[0m[0minfo[0m] [0m[0m8: Pulling from library/openjdk[0m
+[0m[[0m[0minfo[0m] [0m[0m844c33c7e6ea: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mada5d61ae65d: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mf8427fdf4292: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mf025bafc4ab8: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m67b8714e1225: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m64b12da521a3: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m2e38df533772: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0mf025bafc4ab8: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m67b8714e1225: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m64b12da521a3: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m2e38df533772: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0mf8427fdf4292: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0mf8427fdf4292: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0mada5d61ae65d: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m67b8714e1225: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m64b12da521a3: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m64b12da521a3: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m844c33c7e6ea: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0mf025bafc4ab8: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0mf025bafc4ab8: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m2e38df533772: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m2e38df533772: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m844c33c7e6ea: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mada5d61ae65d: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mf8427fdf4292: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mf025bafc4ab8: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m67b8714e1225: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m64b12da521a3: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m2e38df533772: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mDigest: sha256:e1415d5d2a41e2f4f44c1a48f2f268a9da5d7fcd1e9b2773d32f4645b30ec69b[0m
+[0m[[0m[0minfo[0m] [0m[0mStatus: Downloaded newer image for openjdk:8[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 09df0563bdfc[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/14 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 7907998f887b[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 7907998f887b[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 0debfe0cbdb9[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/14 : COPY opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 9a5e6e620baa[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/14 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 1ad79e9b7979[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 1ad79e9b7979[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> d33ddb819c02[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/14 : RUN ["chmod", "-R", "u=rX,g=rX", "/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 60b4561d042e[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 60b4561d042e[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 4195a077fb63[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/14 : RUN ["chmod", "u+x,g+x", "/opt/docker/bin/play-scala-starter-example"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 2a9b0d0d84cf[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 2a9b0d0d84cf[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> d3e1520ff5e6[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/14 : FROM openjdk:8[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 09df0563bdfc[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/14 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in c648fc28f09a[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container c648fc28f09a[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> edea0bec95f8[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/14 : RUN id -u demiourgos728 2> /dev/null || useradd --system --create-home --uid 1001 --gid 0 demiourgos728[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 67c87d736b7a[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 67c87d736b7a[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 74c41a119faa[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 10/14 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 1a00bd5ae93e[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 1a00bd5ae93e[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 8ebe2471604b[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 11/14 : COPY --from=stage0 --chown=demiourgos728:root /opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 1a2260cad107[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 12/14 : USER 1001[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in d1a8a443cbbb[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container d1a8a443cbbb[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 43487db61c37[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 13/14 : ENTRYPOINT ["/opt/docker/bin/play-scala-starter-example"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in b9d998f0d063[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container b9d998f0d063[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 066d98b3afe4[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 14/14 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 4ec9a98d4dd0[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 4ec9a98d4dd0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 7f03f7808593[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 7f03f7808593[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged play-scala-starter-example:1.0.0[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image play-scala-starter-example with tags [1.0.0][0m

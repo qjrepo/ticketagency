@@ -1,0 +1,39 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           movieticket.controllers.HomeController.index
+
+# list all movie information
+GET     /movie                       movieticket.controllers.HomeController.listMovies
+
+# list all user information in database
+GET     /user                        movieticket.controllers.HomeController.listUsers
+
+# list all ticket information
+GET     /ticket                      movieticket.controllers.HomeController.listTicket
+
+# list all available seat & movie information
+GET     /avail                       movieticket.controllers.HomeController.listAvailTicket
+
+# list all purchase information
+GET     /buyinfo                       movieticket.controllers.HomeController.listBuyinfo
+
+# make sure userinformation fits the data in mongodb
+GET    /login/:username/:password    movieticket.controllers.HomeController.login(username:String,password:String)
+
+# get avail ticket by actor
+GET   /seats/:id                     movieticket.controllers.HomeController.listticketbymvid(id : Int)
+
+# get all 1 million record
+GET    /all                        movieticket.controllers.HomeController.listall
+
+# get avail seat for special movie from 1 million record
+GET   /listspec/:id                    movieticket.controllers.HomeController.listspec(id : Int)
+
+# user register
+POST    /user                        movieticket.controllers.HomeController.createUser
+
+# buy ticket and update the seat situation in database
+PUT    /buy/:id/:username                      movieticket.controllers.HomeController.ticketIsNotFill(id : Int,username:String)

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="sbt: org.reactivemongo:reactivemongo-play-json_2.12:0.19.0-play27:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.12/0.19.0-play27/reactivemongo-play-json_2.12-0.19.0-play27.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../huihuanzhao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.12/0.19.0-play27/reactivemongo-play-json_2.12-0.19.0-play27-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../wu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.12/0.19.0-play27/reactivemongo-play-json_2.12-0.19.0-play27-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../huihuanzhao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.12/0.19.0-play27/reactivemongo-play-json_2.12-0.19.0-play27-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../wu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.12/0.19.0-play27/reactivemongo-play-json_2.12-0.19.0-play27-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

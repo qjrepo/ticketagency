@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e945966e-2f62-4007-88f1-ee4219036c87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/movieticket/AppModule.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/movieticket/AppModule.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/movieticket/actors/CatalogActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/movieticket/actors/CatalogActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/movieticket/actors/message/CatalogMessage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/movieticket/actors/message/CatalogMessage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/movieticket/service/CatalogService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/movieticket/service/CatalogService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BrowserSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/FunctionalSpec.scala" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TcvYWqQqjJI3vKdkTNjyt4uYIq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="movieticket" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.spec.service in play-scala-starter-example">
+    <configuration name="spec.service in play-scala-starter-example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="play-scala-starter-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spec.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spec.service" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="ticket_agency" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="ticket_agency" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrowserSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="play-scala-starter-example" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="BrowserSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.spec.service in play-scala-starter-example" />
+        <item itemvalue="ScalaTest.BrowserSpec" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="play-scala-starter-example" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/huihuanzhao/Desktop/scalafinal/finalgit/ticketagency/ticketagency1/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="play-scala-starter-example-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4727036698114" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1127991480" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2868604264" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="836871103" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/CSYE7200-master-2/assignment-spark-wordcount" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200-master/assignment-movie-database" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/assignment-functional-composition" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/assignment-movie-database" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/assignment-random-state" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/assignment-spark-wordcount" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/assignment-web-crawler" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/functional-programming" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/lab-99" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/lab-parser" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/CSYE7200-master/lab-sorted" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/a1/CSYE7200-master/assignment-lazy" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/a6/A6/assignment-web-crawler" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/Assignment/reactive-tickets-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/CSYE7200/example/hello-akka-http" value="PREVIEW" />
+        <entry key="$USER_HOME$/computer-database-mongo-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/play-samples-play-scala-hello-world-tutorial" value="PREVIEW" />
+        <entry key="$USER_HOME$/play-samples-play-scala-rest-api-example" value="PREVIEW" />
+        <entry key="$USER_HOME$/play-samples-play-scala-starter-example" value="PREVIEW" />
+        <entry key="$USER_HOME$/play-samples-play-scala-streaming-example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e945966e-2f62-4007-88f1-ee4219036c87" name="Default Changelist" comment="" />
+      <created>1573772245550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573772245550</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

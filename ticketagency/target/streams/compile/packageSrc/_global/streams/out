@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/wu/Desktop/ticketagency-master/ticket_agency/target/scala-2.12/play-scala-starter-example_2.12-1.0.0-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/AppModule.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/AppModule.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/models/Movie.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/models/Movie.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/models/User.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/models/User.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/models/Ticket.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/models/Ticket.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/actors/CatalogActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/actors/CatalogActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/service/CatalogService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/service/CatalogService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/controllers/UserController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/controllers/UserController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	movieticket/actors/message/CatalogMessage.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/wu/Desktop/ticketagency-master/ticket_agency/app/movieticket/actors/message/CatalogMessage.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
